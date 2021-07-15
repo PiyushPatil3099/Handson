@@ -16,10 +16,7 @@ public class Demo {
 		c.eat();
 		c.makeNoise();
 		c.canPet();
-		Hippo h=new Hippo();
-		h.eat();
-		h.makeNoise();
-		h.swimmingAbility();
+		
 		Dog d=new Dog();
 		d.eat();
 		d.makeNoise();
