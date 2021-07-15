@@ -1,6 +1,6 @@
 package AnimalHierarcy;
 
-public class Hippo extends Animal implements Swimming{
+public abstract class Hippo extends Animal implements Swimming{
 
 	@Override
 	void eat() {
@@ -19,10 +19,5 @@ public class Hippo extends Animal implements Swimming{
 		System.out.println("Hippo poses swimming ability");
 		
 	}
-	@Override
-	void roam() {
-		// TODO Auto-generated method stub
-		
-	}
-
+	
 }
